@@ -59,7 +59,7 @@ class WeightedGraph:
         #unvisited_cities = list(self.cityList.keys())
         print (unvisited_cities)
 
-        while unvisited_cities:
+      while unvisited_cities:
             min_distance = float('inf')
             closest_city = None
             #mengiterasi setiap kota yang belum dikunjungi
